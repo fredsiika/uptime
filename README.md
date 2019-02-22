@@ -6,5 +6,5 @@ The motivation for this project was to build a complete RESTful APi, Web App GUI
 
 ### Sections
 1. RESTful API
-
+2. Web App Graphic User Interface (GUI)
 ### Contributors
