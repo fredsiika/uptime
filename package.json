@@ -1,0 +1,32 @@
+{
+  "name": "uptime",
+  "version": "1.0.0",
+  "description": "A simple uptime monitoring app.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredsiika/uptime.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "uptime",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Fred Siika",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fredsiika/uptime/issues"
+  },
+  "homepage": "https://github.com/fredsiika/uptime#readme",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
