@@ -2,31 +2,74 @@
   "name": "uptime",
   "version": "1.0.0",
   "description": "A simple uptime monitoring app.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredsiika/uptime.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Fred Siika",
+    "email": "fredsiika@gmail.com",
+    "url": "https://github.com/fredsiika"
+  },
+  "bin": {
+    "uptime": "cli.js"
+  },
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo && ava"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fredsiika/uptime.git"
-  },
+  "files": [
+    "cli.js"
+  ],
   "keywords": [
     "npm",
     "node",
     "uptime",
     "javascript",
-    "nodejs"
+    "nodejs",
+    "cli-app",
+    "cli",
+    "color",
+    "colour",
+    "colors",
+    "terminal",
+    "console",
+    "string",
+    "str",
+    "ansi",
+    "style",
+    "styles",
+    "tty",
+    "formatting",
+    "rgb",
+    "256",
+    "shell",
+    "xterm",
+    "log",
+    "logging",
+    "command-line",
+    "text",
+    "template",
+    "tpl"
   ],
-  "author": "Fred Siika",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fredsiika/uptime/issues"
   },
   "homepage": "https://github.com/fredsiika/uptime#readme",
   "dependencies": {
-    "chalk": "^2.4.2"
+    "chalk": "^2.0.0",
+    "ansi-styles": "^3.1.0",
+    "dot-prop": "^3.0.0",
+    "get-stdin": "^6.0.0",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "execa": "^1.0.0",
+    "xo": "^0.23.0"
   }
 }
